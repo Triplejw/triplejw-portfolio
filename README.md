@@ -24,9 +24,10 @@ The flagship case study is **EduSync**, an IEEE AIMLA 2026-published, edge-deplo
 ## Technology
 
 - React 19
+- Next.js 16
 - TypeScript
-- vinext / Vite
-- Cloudflare Workers-compatible output
+- Vercel production deployment
+- Optional vinext / Cloudflare Sites build
 - CSS-driven responsive design and visual system
 
 ## Local development
@@ -34,8 +35,8 @@ The flagship case study is **EduSync**, an IEEE AIMLA 2026-published, edge-deplo
 Requires Node.js 22.13 or newer.
 
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm dev
 ```
 
 The development server runs at `http://localhost:3000` by default.
@@ -43,8 +44,11 @@ The development server runs at `http://localhost:3000` by default.
 Create a production build with:
 
 ```bash
-npm run build
+pnpm build
 ```
+
+The original Sites-compatible build remains available through
+`pnpm sites:build`.
 
 ## Project structure
 

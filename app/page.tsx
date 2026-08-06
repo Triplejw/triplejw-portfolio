@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const projects = [
   {
     number: "02",
@@ -112,11 +114,13 @@ export default function Home() {
             <span>CHENNAI / IN</span>
           </div>
           <div className="portrait-wrap">
-            <img
+            <Image
               src="/triplejw-profile-v2.jpg"
               alt="Joshua JJ Wonder"
               width="460"
               height="460"
+              sizes="(max-width: 820px) 100vw, 460px"
+              priority
             />
             <div className="portrait-label">
               <span>01</span>
