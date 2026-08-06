@@ -113,7 +113,7 @@ export default function Home() {
           </div>
           <div className="portrait-wrap">
             <img
-              src="/triplejw-profile-2026.jpg"
+              src="/triplejw-profile-v2.jpg"
               alt="Joshua JJ Wonder"
               width="460"
               height="460"

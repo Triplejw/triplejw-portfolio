@@ -55,7 +55,7 @@ app/
   page.tsx      # Portfolio content and page structure
 public/
   Joshua-JJ-Wonder-Resume.pdf
-  triplejw-profile-2026.jpg
+  triplejw-profile-v2.jpg
   og.png
 ```
 
