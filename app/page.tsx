@@ -9,17 +9,17 @@ const projects = [
       "An encoder-decoder model with Bahdanau attention, ResNet-50 spatial features, and a Gradio interface for turning images into natural-language captions.",
     tags: ["PyTorch", "ResNet-50", "LSTM", "Gradio"],
     href: "https://github.com/Triplejw/image-caption-generator",
-    metric: "0.208 BLEU-4",
+    metric: "Attention decoder",
   },
   {
     number: "03",
     title: "ConvoManage",
     type: "Full-stack product",
     description:
-      "A multi-role conference platform for organisers, speakers, and attendees, with authentication, scheduling, real-time updates, and payment-ready workflows.",
+      "A React and Supabase conference-management prototype with authentication, a responsive dashboard, and database-backed conference creation and editing.",
     tags: ["React", "TypeScript", "Supabase", "PostgreSQL"],
     href: "https://github.com/Triplejw/ConvoManage",
-    metric: "Multi-role SaaS",
+    metric: "Supabase prototype",
   },
   {
     number: "04",
@@ -309,7 +309,7 @@ export default function Home() {
           <article>
             <span className="experience-date">MAY 2024 — JUN 2024</span>
             <div><h3>AI &amp; Machine Learning Intern</h3><p>Innovate Intern · Remote</p></div>
-            <p>Developed a YOLO-based license-plate detection pipeline spanning preprocessing, annotation, training, tuning, and real-world edge-case testing.</p>
+            <p>Ran and documented a YOLOv8 licence-plate detection experiment covering dataset integration, training, weight selection, and video evaluation.</p>
           </article>
           <article>
             <span className="experience-date">2022 — 2026</span>
